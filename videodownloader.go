@@ -51,7 +51,7 @@ func main() {
 }
 
 func runCommand(url string) {
-	cmd := exec.Command("/usr/local/bin/youtube-dl", "-f", "best", "-o", "vids/%(title)s-%(id)s.%(ext)s", url)
+	cmd := exec.Command("/usr/local/bin/yt-dlp", "-f", "best", "-o", "vids/%(title)s-%(id)s.%(ext)s", url)
 	if err := cmd.Run(); err != nil {
 		fmt.Println(err)
 		log.Fatal(err)
