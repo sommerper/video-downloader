@@ -1,0 +1,81 @@
+2022/03/11 16:40:07 check to make sure it works
+2022/03/11 16:40:18 &{0xc0000b8a00 0xc000130000 {} 0x10d3100 false false false false 0 {0 0} 0xc00011c140 {0xc000140000 map[] false false} map[] false 0 -1 0 false false [] 0 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0] [0 0 0] 0xc00013e000 0} id: %s 22
+2022/03/11 16:40:51 check to make sure it works
+2022/03/11 16:40:54 hejj
+2022/03/11 16:42:04 check to make sure it works
+2022/03/11 16:42:07 id: 22
+2022/03/11 17:07:15 check to make sure it works
+2022/03/11 17:07:31 check to make sure it works
+2022/03/11 17:08:33 check to make sure it works
+2022/03/11 17:28:54 check to make sure it works
+2022/03/11 17:55:09 check to make sure it works
+2022/03/11 17:56:26 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 17:56:55 check to make sure it works
+2022/03/11 17:57:00 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:06:53 check to make sure it works
+2022/03/11 18:07:04 check to make sure it works
+2022/03/11 18:07:31 check to make sure it works
+2022/03/11 18:07:43 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:08:01 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:08:59 check to make sure it works
+2022/03/11 18:09:07 check to make sure it works
+2022/03/11 18:09:08 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:09:57 check to make sure it works
+2022/03/11 18:09:59 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:10:33 check to make sure it works
+2022/03/11 18:15:03 check to make sure it works
+2022/03/11 18:15:08 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:16:40 check to make sure it works
+2022/03/11 18:16:44 check to make sure it works
+2022/03/11 18:16:46 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:16:47 fork/exec ffmpeg -f best https://www.youtube.com/watch?v=IGQBtbKSVhY "./vids/Dubstep Bird (Original 5 Sec Video) - YouTube": no such file or directory
+2022/03/11 18:17:14 check to make sure it works
+2022/03/11 18:17:16 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:17:17 fork/exec ffmpeg -f best https://www.youtube.com/watch?v=IGQBtbKSVhY: no such file or directory
+2022/03/11 18:18:37 check to make sure it works
+2022/03/11 18:18:41 check to make sure it works
+2022/03/11 18:18:43 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:19:26 check to make sure it works
+2022/03/11 18:19:28 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:23:38 check to make sure it works
+2022/03/11 18:23:40 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:24:04 check to make sure it works
+2022/03/11 18:24:40 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/11 18:24:40 fork/exec youtube-dl -f best -o './vids/%(title)s-%(id)s.%(ext)s' https://www.youtube.com/watch?v=IGQBtbKSVhY: no such file or directory
+2022/03/12 03:46:10 check to make sure it works
+2022/03/12 03:46:13 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 03:46:14 fork/exec echo https://www.youtube.com/watch?v=IGQBtbKSVhY: no such file or directory
+2022/03/12 03:47:30 check to make sure it works
+2022/03/12 03:47:31 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 03:48:20 check to make sure it works
+2022/03/12 03:48:22 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 03:48:23 fork/exec echo https://www.youtube.com/watch?v=IGQBtbKSVhY: no such file or directory
+2022/03/12 03:48:48 check to make sure it works
+2022/03/12 03:48:49 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 03:48:50 fork/exec echo https://www.youtube.com/watch?v=IGQBtbKSVhY: no such file or directory
+2022/03/12 03:49:20 check to make sure it works
+2022/03/12 03:49:20 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 03:49:20 fork/exec youtube-dl -f best -o './vids/%(title)s-%(id)s.%(ext)s' https://www.youtube.com/watch?v=IGQBtbKSVhY: no such file or directory
+2022/03/12 03:49:52 check to make sure it works
+2022/03/12 03:49:56 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 03:49:56 fork/exec /usr/local/bin/youtube-dl -f best -o './vids/%(title)s-%(id)s.%(ext)s' https://www.youtube.com/watch?v=IGQBtbKSVhY: no such file or directory
+2022/03/12 03:51:51 check to make sure it works
+2022/03/12 03:51:58 check to make sure it works
+2022/03/12 03:52:02 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 03:53:30 check to make sure it works
+2022/03/12 03:53:35 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 04:03:11 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 04:03:52 check to make sure it works
+2022/03/12 04:04:02 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 04:15:44 check to make sure it works
+2022/03/12 04:15:57 url: https://www.youtube.com/watch?v=Wch3gJG2GJ4
+2022/03/12 04:19:05 check to make sure it works
+2022/03/12 04:19:12 check to make sure it works
+2022/03/12 04:19:19 url: https://www.youtube.com/watch?v=Wch3gJG2GJ4
+2022/03/12 04:19:30 url: https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 04:21:22 check to make sure it works
+2022/03/12 04:22:05 check to make sure it works
+2022/03/12 04:27:17 Dubstep Bird (Original 5 Sec Video) - YouTube https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 19:35:00 Dubstep Bird (Original 5 Sec Video) - YouTube https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 19:36:20 Dubstep Bird (Original 5 Sec Video) - YouTube https://www.youtube.com/watch?v=IGQBtbKSVhY
+2022/03/12 19:37:14 4 second video - YouTube https://m.youtube.com/watch?v=hWubNpkqTug
