@@ -58,10 +58,10 @@ func runCommand(url string) {
 	}
 }
 
-func formatTitle(title string) string {
-	// title = strings.ReplaceAll(title, " ", "")
-	return title
-}
+// func formatTitle(title string) string {
+// title = strings.ReplaceAll(title, " ", "")
+// return title
+// }
 
 func getTitle(url string) string {
 	resp, err := http.Get(url)
