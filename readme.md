@@ -41,7 +41,13 @@ After importing the shortcut you need to change the TEXT URL property to match y
 
 ![Change text URL](DownloadVideoTemplate.jpeg)
 
+## Bookmarklet
+Right click in your desktop browser and add this <a href="javascript:(() =>{location.href='https://videodownloader.myserver.com/video?url='+document.URL})();" target="_blank">Bookmarklet</a>. Then use it when on a youtube video page.
 
+
+```
+javascript:(() => {   location.href='https://videodownloader.myserver.com/video?url=' + document.URL })();
+```
 ## Thank you
 If you think this helped you out you can donate a small amount here
 
