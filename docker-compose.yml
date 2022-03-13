@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  app:
+    restart: unless-stopped
+    build:
+      dockerfile: Dockerfile
+      context: .
+      target: dev
+    volumes:
+      - ./vids:/usr/src/app/vids
+    ports:
+      - "17945:17945"
