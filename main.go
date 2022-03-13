@@ -42,6 +42,7 @@ func main() {
 		title := getTitle(url)
 		fmt.Println(title)
 		log.Println(title + " " + url)
+		fmt.Fprintf(w, "Downloading, %q", title)
 		go runCommand(url)
 
 	})
