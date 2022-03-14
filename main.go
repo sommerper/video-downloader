@@ -117,14 +117,14 @@ func getTitle(url string) (string, error) {
 	return title, err
 }
 
-func createPath(path string) {
-	if _, err := os.Stat(path); errors.Is(err, os.ErrNotExist) {
-		err := os.Mkdir(path, os.ModePerm)
-		if err != nil {
-			log.Println(err)
-		}
-	}
-}
+// func createPath(path string) {
+// 	if _, err := os.Stat(path); errors.Is(err, os.ErrNotExist) {
+// 		err := os.Mkdir(path, os.ModePerm)
+// 		if err != nil {
+// 			log.Println(err)
+// 		}
+// 	}
+// }
 
 func getPwd() string {
 	path, err := os.Getwd()
