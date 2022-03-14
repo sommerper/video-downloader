@@ -32,22 +32,37 @@ videodownloader.myserver.com {
 }
 ```
 
-## iOS Shortcut
-A shortcut for iOS is provided for quick access.
+## iOS Shortcuts
+Shortcuts for iOS is provided for quick access.
 
-![Link to Shortcut](QR_Code_iOS_shortcut.png)
+### Video shortcut
+![Link to Shortcut](QR_Code_iOS_video_shortcut.png)
+
+### Audio shortcut
+![Link to Shortcut](QR_Code_iOS_audio_shortcut.png)
 
 After importing the shortcut you need to change the TEXT URL property to match your server.
 
 ![Change text URL](DownloadVideoTemplate.jpeg)
 
 ## Bookmarklet
-Right click in your desktop browser and add this <a href="javascript:(() =>{location.href='https://videodownloader.myserver.com/video?url='+document.URL})();" target="_blank">Bookmarklet</a>. Then use it when on a youtube video page.
-
+### Video
+Right click in your desktop browser and add this <a href="javascript:(() =>{location.href='https://videodownloader.myserver.com/video?url='+document.URL})();" target="_blank">Download Video</a>.
 
 ```
 javascript:(() => {   location.href='https://videodownloader.myserver.com/video?url=' + document.URL })();
 ```
+
+### Audio
+Right click in your desktop browser and add this <a href="javascript:(() =>{location.href='https://videodownloader.myserver.com/video?audioonly=true&url='+document.URL})();" target="_blank">Download Audio</a>.
+
+```
+javascript:(() => {   location.href='https://videodownloader.myserver.com/video?audioonly=true&url=' + document.URL })();
+```
+
+Then use it when on a youtube video page.
+
+
 ## Thank you
 If you think this helped you out you can donate a small amount here
 
