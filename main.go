@@ -117,14 +117,14 @@ func getTitle(url string) (string, error) {
 	return title, err
 }
 
-// func createPath(path string) {
-// 	if _, err := os.Stat(path); errors.Is(err, os.ErrNotExist) {
-// 		err := os.Mkdir(path, os.ModePerm)
-// 		if err != nil {
-// 			log.Println(err)
-// 		}
-// 	}
-// }
+func createPath(path string) {
+	if _, err := os.Stat(path); errors.Is(err, os.ErrNotExist) {
+		err := os.Mkdir(path, os.ModePerm)
+		if err != nil {
+			log.Println(err)
+		}
+	}
+}
 
 func getPwd() string {
 	path, err := os.Getwd()
@@ -137,7 +137,8 @@ func getPwd() string {
 
 func initLog() {
 	//create your file with desired read/write permissions
-	f, err := os.OpenFile("downloads.log", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
+	createPath("logs")
+	f, err := os.OpenFile("logs/downloads.log", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
