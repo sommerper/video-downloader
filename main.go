@@ -79,7 +79,7 @@ func runDownload(url string, downloadAudio bool) {
 		cmd = exec.Command("/usr/local/bin/yt-dlp", "-f", "ba", "-x", "--audio-format", "mp3", "-o", filePath, url)
 	} else {
 		filePath := downloadsPath + "/%(title)s-%(id)s.%(ext)s"
-		cmd = exec.Command("/usr/local/bin/yt-dlp", "-f", "bv+ba/b", "-o", filePath, url)
+		cmd = exec.Command("/usr/local/bin/yt-dlp", "-f", "bv*+ba", "-o", filePath, url)
 	}
 
 	var out bytes.Buffer
