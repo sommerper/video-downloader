@@ -8,5 +8,6 @@ services:
       target: dev
     volumes:
       - ./downloads:/usr/src/app/downloads
+      - ./downloads.log:/usr/src/app/downloads.log
     ports:
       - "17945:17945"

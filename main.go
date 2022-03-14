@@ -20,7 +20,7 @@ func main() {
 
 	initLog()
 
-	createPath(downloadsPathName)
+	// createPath(downloadsPathName)
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Hello, %q", html.EscapeString(r.URL.Path))
@@ -60,15 +60,6 @@ func main() {
 
 }
 
-// func runDownloadAudio(url string) {
-// 	fmt.Println("Download Audio")
-// 	cmd := exec.Command("/usr/local/bin/yt-dlp", "-f", "ba", "-x", "--audio-format", "mp3", "-o", "vids/%(title)s-%(id)s.%(ext)s", url)
-// 	if err := cmd.Run(); err != nil {
-// 		fmt.Println(err)
-// 		log.Println(err)
-// 	}
-// }
-
 func runDownload(url string, downloadAudio bool) {
 	fmt.Println("Download Merged Video And Audio")
 	downloadsPath := getPwd() + "/" + downloadsPathName
@@ -90,6 +81,7 @@ func runDownload(url string, downloadAudio bool) {
 	err := cmd.Run()
 	if err != nil {
 		fmt.Println(fmt.Sprint(err) + ": " + stderr.String())
+		log.Println(fmt.Sprint(err) + ": " + stderr.String())
 		return
 	}
 	fmt.Println("Result: " + out.String())
