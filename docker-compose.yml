@@ -7,6 +7,6 @@ services:
       context: .
       target: dev
     volumes:
-      - ./vids:/usr/src/app/vids
+      - ./downloads:/usr/src/app/downloads
     ports:
       - "17945:17945"
